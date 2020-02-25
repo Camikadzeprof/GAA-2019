@@ -1,0 +1,75 @@
+﻿Сборка начата 19.12.2019 12:17:18.
+     1>Проект "D:\Kurs\GAA-2019\GAA-2019\GAA-2019.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\GAA-2019.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt Error.cpp FST.cpp "GAA-2019.cpp" GRB.cpp Generation.cpp IT.cpp In.cpp LT.cpp Lexanaliz.cpp Log.cpp MFST.cpp Parm.cpp PolishNotation.cpp Semantic.cpp
+         Error.cpp
+     1>d:\kurs\gaa-2019\gaa-2019\error.cpp(10): warning C4002: слишком много аргументов для вызова макроса, подобного функции, "ERROR_ENTRY_NODEF10"
+     1>d:\kurs\gaa-2019\gaa-2019\error.cpp(66): warning C4804: <: небезопасное использование типа "bool" в операции
+         FST.cpp
+     1>d:\kurs\gaa-2019\gaa-2019\fst.cpp(261): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+         GAA-2019.cpp
+     1>d:\kurs\gaa-2019\gaa-2019\gaa-2019.cpp(17): warning C4326: возвращаемый тип "wmain" должен быть "int", а не "void"
+         GRB.cpp
+         Generation.cpp
+         IT.cpp
+         In.cpp
+     1>d:\kurs\gaa-2019\gaa-2019\in.cpp(29): warning C4018: <: несоответствие типов со знаком и без знака
+     1>d:\kurs\gaa-2019\gaa-2019\in.cpp(45): warning C4018: <: несоответствие типов со знаком и без знака
+         LT.cpp
+         Lexanaliz.cpp
+     1>d:\kurs\gaa-2019\gaa-2019\lexanaliz.cpp(19): warning C4101: idtype: неиспользованная локальная переменная
+     1>d:\kurs\gaa-2019\gaa-2019\lexanaliz.cpp(17): warning C4101: INDX: неиспользованная локальная переменная
+         Log.cpp
+     1>d:\kurs\gaa-2019\gaa-2019\log.cpp(228): warning C4806: ==: небезопасная операция: значение типа "bool", приведенное к типу "int", не может равняться данной константе
+         MFST.cpp
+     1>d:\kurs\gaa-2019\gaa-2019\mfst.cpp(225): warning C4267: =: преобразование из "size_t" в "short"; возможна потеря данных
+         Parm.cpp
+         PolishNotation.cpp
+         Semantic.cpp
+         Создание кода...
+     1>d:\kurs\gaa-2019\gaa-2019\polishnotation.cpp(145): warning C4715: PN::ArifmPriorities: значение возвращается не при всех путях выполнения
+     1>d:\kurs\gaa-2019\gaa-2019\error.cpp(73): warning C4715: Error::geterrorin: значение возвращается не при всех путях выполнения
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Kurs\GAA-2019\Debug\GAA-2019.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"D:\Kurs\GAA-2019\Debug\GAA-2019.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Kurs\GAA-2019\Debug\GAA-2019.lib" /MACHINE:X86 Debug\Error.obj
+         Debug\FST.obj
+         "Debug\GAA-2019.obj"
+         Debug\Generation.obj
+         Debug\GRB.obj
+         Debug\In.obj
+         Debug\IT.obj
+         Debug\Lexanaliz.obj
+         Debug\Log.obj
+         Debug\LT.obj
+         Debug\MFST.obj
+         Debug\Parm.obj
+         Debug\PolishNotation.obj
+         Debug\Semantic.obj
+         GAA-2019.vcxproj -> D:\Kurs\GAA-2019\Debug\GAA-2019.exe
+       FinalizeBuildStatus:
+         Файл "Debug\GAA-2019.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\GAA-2019.tlog\GAA-2019.lastbuildstate".
+     1>Сборка проекта "D:\Kurs\GAA-2019\GAA-2019\GAA-2019.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\Kurs\GAA-2019\GAA-2019\GAA-2019.vcxproj" (целевой объект Build ) (1) ->
+       (ClCompile конечный объект) -> 
+         d:\kurs\gaa-2019\gaa-2019\error.cpp(10): warning C4002: слишком много аргументов для вызова макроса, подобного функции, "ERROR_ENTRY_NODEF10"
+         d:\kurs\gaa-2019\gaa-2019\error.cpp(66): warning C4804: <: небезопасное использование типа "bool" в операции
+         d:\kurs\gaa-2019\gaa-2019\fst.cpp(261): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+         d:\kurs\gaa-2019\gaa-2019\gaa-2019.cpp(17): warning C4326: возвращаемый тип "wmain" должен быть "int", а не "void"
+         d:\kurs\gaa-2019\gaa-2019\in.cpp(29): warning C4018: <: несоответствие типов со знаком и без знака
+         d:\kurs\gaa-2019\gaa-2019\in.cpp(45): warning C4018: <: несоответствие типов со знаком и без знака
+         d:\kurs\gaa-2019\gaa-2019\lexanaliz.cpp(19): warning C4101: idtype: неиспользованная локальная переменная
+         d:\kurs\gaa-2019\gaa-2019\lexanaliz.cpp(17): warning C4101: INDX: неиспользованная локальная переменная
+         d:\kurs\gaa-2019\gaa-2019\log.cpp(228): warning C4806: ==: небезопасная операция: значение типа "bool", приведенное к типу "int", не может равняться данной константе
+         d:\kurs\gaa-2019\gaa-2019\mfst.cpp(225): warning C4267: =: преобразование из "size_t" в "short"; возможна потеря данных
+         d:\kurs\gaa-2019\gaa-2019\polishnotation.cpp(145): warning C4715: PN::ArifmPriorities: значение возвращается не при всех путях выполнения
+         d:\kurs\gaa-2019\gaa-2019\error.cpp(73): warning C4715: Error::geterrorin: значение возвращается не при всех путях выполнения
+
+    Предупреждений: 12
+    Ошибок: 0
+
+Прошло времени 00:00:07.47

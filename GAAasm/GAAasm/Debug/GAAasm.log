@@ -1,0 +1,31 @@
+﻿Сборка начата 19.12.2019 11:57:54.
+     1>Проект "D:\Kurs\GAAasm\GAAasm\GAAasm.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\GAAasm.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       _MASM:
+         Assembling GAA-2019.asm...
+         cmd.exe /C "C:\Users\Lenovo\AppData\Local\Temp\tmpf886ef7509034f018b2b1ee829e60a65.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\GAA-2019.obj" /W3 /errorReport:prompt  /Ta"GAA-2019.asm"
+     1>GAA-2019.asm(62): warning A6004: procedure argument or local not referenced : a
+     1>GAA-2019.asm(62): warning A6004: procedure argument or local not referenced : b
+     1>GAA-2019.asm(62): warning A6004: procedure argument or local not referenced : d
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Kurs\GAAasm\Debug\GAAasm.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"D:\Kurs\GAAasm\Debug\GAAasm.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Kurs\GAAasm\Debug\GAAasm.lib" /MACHINE:X86 "Debug\GAA-2019.obj"
+         GAAasm.vcxproj -> D:\Kurs\GAAasm\Debug\GAAasm.exe
+       FinalizeBuildStatus:
+         Файл "Debug\GAAasm.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\GAAasm.tlog\GAAasm.lastbuildstate".
+     1>Сборка проекта "D:\Kurs\GAAasm\GAAasm\GAAasm.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\Kurs\GAAasm\GAAasm\GAAasm.vcxproj" (целевой объект Build ) (1) ->
+       (_MASM конечный объект) -> 
+         GAA-2019.asm(62): warning A6004: procedure argument or local not referenced : a
+         GAA-2019.asm(62): warning A6004: procedure argument or local not referenced : b
+         GAA-2019.asm(62): warning A6004: procedure argument or local not referenced : d
+
+    Предупреждений: 3
+    Ошибок: 0
+
+Прошло времени 00:00:00.77

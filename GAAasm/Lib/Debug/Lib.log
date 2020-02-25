@@ -1,0 +1,30 @@
+﻿Сборка начата 18.12.2019 23:33:46.
+     1>Проект "D:\Kurs\GAAasm\Lib\Lib.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\Lib.tlog\unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"pch.h" /Fp"Debug\Lib.pch" /Fo"Debug\\" /Fd"Debug\Lib.pdb" /Gd /TP /analyze- /FC /errorReport:prompt Lib.cpp
+         Lib.cpp
+     1>d:\kurs\gaaasm\lib\lib.cpp(14): warning C4244: =: преобразование "double" в "unsigned int", возможна потеря данных
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\Lib.exe /OUT:"D:\Kurs\GAAasm\Debug\Lib.lib" /NOLOGO Debug\Lib.obj
+         Debug\pch.obj
+         Lib.vcxproj -> D:\Kurs\GAAasm\Debug\Lib.lib
+       CopyFilesToOutputDirectory:
+         Копирование файла из "Debug\Lib.pdb" в "D:\Kurs\GAAasm\Debug\Lib.pdb".
+       FinalizeBuildStatus:
+         Файл "Debug\Lib.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Lib.tlog\Lib.lastbuildstate".
+     1>Сборка проекта "D:\Kurs\GAAasm\Lib\Lib.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\Kurs\GAAasm\Lib\Lib.vcxproj" (целевой объект Build ) (1) ->
+       (ClCompile конечный объект) -> 
+         d:\kurs\gaaasm\lib\lib.cpp(14): warning C4244: =: преобразование "double" в "unsigned int", возможна потеря данных
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:01.26
